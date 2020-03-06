@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This software consists of two parts; a sequence analysis program and a web server program.
+This application consists of two parts; a sequence analysis program and a web server program.
 
 **Sequence Analysis Workflow**
 
