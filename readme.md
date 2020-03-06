@@ -26,7 +26,7 @@ wget ftp://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/uniprot_sprot.xml
   ```
   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
   
-  sh Miniconda3-latest-Linux-x86_64.sh
+  bash Miniconda3-latest-Linux-x86_64.sh
   ```
   * Set up bioconda channel
   ```
