@@ -15,11 +15,6 @@ A webserver developed with Django displays an index page and the html output of 
 ### Prerequisites
 
   * Python 3.6
-  * UniProt database
-
-```
-wget ftp://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/uniprot_sprot.xml.gz
-```
 
 * [MUSCLE](https://www.drive5.com/muscle/manual/install.html) via bioconda
   * Install miniconda
@@ -48,7 +43,14 @@ pip install biopython
 
 ## How to Run
 **Sequence Analysis Workflow**
+
+First, you need to download the UniProt database.
+
 >On Linux terminal, in `./program_project`, run:
+```
+wget ftp://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/uniprot_sprot.xml.gz
+```
+>Then, run:
 ```
 python3 seq_align2.py
 ```
