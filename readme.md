@@ -39,6 +39,9 @@ wget ftp://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/uniprot_sprot.xml
 conda install -c bioconda muscle
 ```
 * BioPython
+```
+pip install biopython
+```
 * Django
   * Install pip `sudo apt install python3-pip`
   * Install django `python3 -m pip install Django`
