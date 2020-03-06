@@ -1,0 +1,12 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="/static/align/style.css">
+
+{% for question in question_list %}
+<ul>
+<li> <a href="{% url 'align:detail' question.id %}"> <p style="margin-top: 110px;"><button class="btn">
+	{{ question.question_text }}
+</button></p></a>
+			</li>
+			</ul>
+{% endfor %}

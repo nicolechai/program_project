@@ -1,0 +1,16 @@
+
+li a {
+    color: blue;
+}
+
+
+body {
+  background: white url("./images/background.gif") no-repeat;
+}
+
+.btn {
+    background-color:#cef0e3;
+    cursor:pointer;
+    height:40px;
+    width:200px;
+}
