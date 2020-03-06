@@ -6,7 +6,7 @@ This application consists of two parts; a sequence analysis program and a web se
 
 **Sequence Analysis Workflow**
 
-The first program will search for 20 entries of a gene (ex. MYC gene) in a zipped UniProt database file. A Multiple Sequence Alignment will be achieved via MUSCLE, and output will be stored in fasta and html files. The alignment will also be serialised via Python’s `pickle` module. A quick consensus sequence will be produced with BioPython’s `SummaryInfo` module. A `NucleciAcid` class is created that can translate a DNA sequence to a protein sequence. Secondary structure prediction will be achieved through PSIPRED.
+The first program will search for 20 entries of a gene (e.g. the MYC gene) in a zipped UniProt database file. A Multiple Sequence Alignment will be achieved via MUSCLE, and output will be stored in fasta and html files. The alignment will also be serialised via Python’s `pickle` module. A quick consensus sequence will be produced with BioPython’s `SummaryInfo` module. A `NucleciAcid` class is created that can translate a DNA sequence to a protein sequence. Secondary structure prediction will be achieved through PSIPRED.
 
 **Webserver**
 
