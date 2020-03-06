@@ -48,7 +48,7 @@ pip install biopython
 
 ## How to Run
 **Sequence Analysis Workflow**
->On Linux terminal, in ‘./program_project’:
+>On Linux terminal, in `./program_project`:
 ```
 python3 seq_align2.py
 ```
