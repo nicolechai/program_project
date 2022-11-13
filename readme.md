@@ -104,4 +104,4 @@ python3 unittest_nucleic.py
 
 ## Contact
 
-The author can be contacted at y.chai3@newcastle.ac.uk
+The author can be contacted at nicole.yt.chai@gmail.com
